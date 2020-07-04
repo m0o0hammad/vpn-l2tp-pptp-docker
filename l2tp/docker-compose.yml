@@ -10,4 +10,5 @@ services:
         volumes:
             - '/lib/modules:/lib/modules:ro'
         privileged: true
+        restart: always
         image: fcojean/l2tp-ipsec-vpn-server
